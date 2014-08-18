@@ -108,6 +108,7 @@
         
    <field name="dwc_occurrenceID" type="string" indexed="true" stored="true" required="true" multiValued="false" /><!-- Unique ID -->
    <field name="bourgogneVersion" type="string" indexed="true" stored="true" required="true" multiValued="false" /><!-- Indexed -->
+   <field name="datasetID" type="string" indexed="true" required="true" multiValued="false" /><!-- Indexed -->
    <!-- Record Level
 	19 fields
    -->

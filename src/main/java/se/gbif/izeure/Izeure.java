@@ -169,6 +169,9 @@ public class Izeure
                 size = body.size();
                 lastDwC = body.get(size).getAsJsonObject("dwr:SimpleDarwinRecord");                    // get the last version
                 
+                // add datasetID in the JSONObject
+                lastDwC.addProperty("datasetID", Integer.toString(datasetid));
+                
                 // add version number in the JSONObject
                 lastDwC.addProperty("bourgogneVersion", size);
 

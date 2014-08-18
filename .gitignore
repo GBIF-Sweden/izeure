@@ -10,3 +10,4 @@ target/
 .classpath
 .project
 /src/main/resources/META-INF/persistence.xml
+/nrm-dina.xml
