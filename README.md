@@ -22,6 +22,10 @@ Installation
 For creating the index you must copy the file schema.xml in the configuration
 directory of your Solr collection.
 
+Before running the program for the first time, you need to make a copy of the file <code>izeure/src/resources/META-INF/persistence_vanilla.xml</code>
+in the same location and name it <code>persistence.xml</code>. In <code>persistence.xml</code>, change database, user and 
+password accordingly to your installation.
+
 Run
 ---
 Copy the file <code>sample.xml</code> located at the root of this directory and
